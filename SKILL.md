@@ -1,6 +1,6 @@
 ---
 slug: sicuns-token-usage-stats
-displayName: Token 用量与积分统计
+displayName: 积分转 Token 用量
 version: 1.1.0
 summary: 统计本机 AI 编码工具的 token 用量与积分消耗，算出花了多少钱、缓存命中率多少、高峰与非高峰各占几成，支持按模型、平台、日期下钻，可用于成本审计与模型选型对比
 license: MIT
