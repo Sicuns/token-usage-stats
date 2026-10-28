@@ -1,11 +1,12 @@
 ---
 slug: sicuns-token-usage-stats
-displayName: Token 用量统计
-version: 1.0.0
-summary: 统计本机 AI 编码工具的 token 用量、真实积分、缓存命中率与高峰/非高峰花费，支持 WorkBuddy、Codex CLI、Claude Code 等
+displayName: Token 用量与积分统计
+version: 1.1.0
+summary: 统计本机 AI 编码工具的 token 用量与积分消耗，算出花了多少钱、缓存命中率多少、高峰与非高峰各占几成，支持按模型、平台、日期下钻，可用于成本审计与模型选型对比
 license: MIT
+tags: [token, 用量统计, 积分, 花费, 成本, 缓存命中率, 模型对比, 成本审计]
 name: token-usage-stats
-description: 统计本机 AI 编码工具的 token 用量、真实积分、缓存命中率与峰谷花费（支持 WorkBuddy、Codex CLI、Claude Code、QoderWork、Gemini CLI 等，其余工具走通用解析）。当用户询问"我用了多少 token""这个月消耗多少积分""哪个模型最烧钱""缓存命中率多少""各平台用量对比"时使用；也可用于成本审计与模型选型建议。
+description: 统计本机 AI 编码工具的 token 用量、真实积分消耗、缓存命中率与高峰/非高峰花费（支持 WorkBuddy、Codex CLI、Claude Code、QoderWork、Gemini CLI 等，其余工具走通用解析）。当用户询问“我用了多少 token”“这个月消耗多少积分”“花了多少钱”“哪个模型最烧钱”“缓存命中率多少”“各平台用量对比”时使用；也可用于成本审计与模型选型建议。
 agent_created: true
 ---
 
